@@ -42,6 +42,9 @@ export default function Projects() {
                 />
               </div>
               <div className="p-6">
+                <span className="inline-block text-xs uppercase tracking-widest mb-2" style={{ color: "#7c5cff" }}>
+                  {project.category}
+                </span>
                 <h3 className="font-display text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-white/60 text-sm mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-5">

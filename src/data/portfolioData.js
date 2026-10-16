@@ -35,6 +35,7 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    category: "Personal Project",
     title: "Shop-Seeker E-Commerce",
     description: "Full-stack e-commerce platform with OTP signup, Razorpay payments, admin CMS, and inventory management. Deployed on AWS EC2 with Nginx and PM2.",
     tags: ["React", "Node.js", "MongoDB", "Razorpay", "AWS"],
@@ -44,6 +45,7 @@ export const projects = [
   },
   {
     id: 2,
+    category: "Personal Project",
     title: "Quick Chat",
     description: "Real-time messaging app with JWT authentication, Socket.io for live messaging, image sharing via Cloudinary, and Zustand state management. Hosted on Render.",
     tags: ["React", "Socket.io", "JWT", "Cloudinary", "Render"],
@@ -53,6 +55,7 @@ export const projects = [
   },
   {
     id: 3,
+    category: "Company Project",
     title: "Atlant Global Parcel Delivery System",
     description: "Enterprise delivery management system with 3 integrated apps (admin dashboard, driver app, customer tracking). Features real-time parcel scanning, driver assignment, route optimization, and live location tracking using Firebase and WebSocket.",
     tags: ["React", "Node.js", "Firebase", "WebSocket", "Real-time"],
@@ -61,11 +64,33 @@ export const projects = [
   },
   {
     id: 4,
+    category: "Company Project",
     title: "WaterScience E-Commerce Platform",
     description: "Multi-tenant e-commerce platform with 4 applications: customer ordering app, dealer management app, central command-and-control center, and driver delivery app. Built with React, Vite, Node.js, Express, Firebase Cloud Functions, and Capacitor for native Android features.",
     tags: ["React", "Vite", "Node.js", "Firebase", "Capacitor"],
     image: "https://placehold.co/800x600/121218/7c5cff?text=WaterScience",
     caseStudy: true,
+  },
+];
+
+export const showcaseCategories = [
+  {
+    id: "3d",
+    title: "3D Websites",
+    description: "Interactive Three.js and React Three Fiber experiences built for visual impact.",
+    items: [
+      { id: 1, title: "3D Website Example 1", tags: ["Three.js", "GSAP"], image: "https://placehold.co/600x400/121218/7c5cff?text=3D+Site+1" },
+      { id: 2, title: "3D Website Example 2", tags: ["React Three Fiber"], image: "https://placehold.co/600x400/121218/22d3ee?text=3D+Site+2" },
+    ],
+  },
+  {
+    id: "websites",
+    title: "Websites",
+    description: "Landing pages and marketing sites focused on layout, animation, and responsiveness.",
+    items: [
+      { id: 1, title: "Website Example 1", tags: ["React", "Tailwind"], image: "https://placehold.co/600x400/121218/ff6b9d?text=Website+1" },
+      { id: 2, title: "Website Example 2", tags: ["HTML", "CSS", "JavaScript"], image: "https://placehold.co/600x400/121218/7c5cff?text=Website+2" },
+    ],
   },
 ];
 

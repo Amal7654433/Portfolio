@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { profile } from "../data/portfolioData";
 
 export default function Contact() {
@@ -53,8 +54,8 @@ export default function Contact() {
           <a href={profile.socials.linkedin} className="hover:text-white transition-colors">
             <FaLinkedin />
           </a>
-          <a href={profile.socials.twitter} className="hover:text-white transition-colors">
-            <FaTwitter />
+          <a href={profile.socials.leetcode} className="hover:text-white transition-colors">
+            <SiLeetcode />
           </a>
         </div>
       </div>

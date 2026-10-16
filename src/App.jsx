@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Showcase from "./components/Showcase";
+import Profiles from "./components/Profiles";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Showcase />
         <Experience />
+        <Profiles />
         <Contact />
       </main>
       <Footer />

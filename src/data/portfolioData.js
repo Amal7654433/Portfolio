@@ -8,9 +8,9 @@ export const profile = {
   phone: "+91 9497515494",
   resumeUrl: "#",
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    leetcode: "https://leetcode.com/",
+    github: "https://github.com/Amal7654433",
+    linkedin: "https://www.linkedin.com/in/amal-tv-783486289/",
+    leetcode: "https://leetcode.com/u/amal790257/",
   },
 };
 
@@ -73,25 +73,18 @@ export const projects = [
   },
 ];
 
-export const showcaseCategories = [
+export const showcaseItems = [
   {
-    id: "3d",
-    title: "3D Websites",
-    description: "Interactive Three.js and React Three Fiber experiences built for visual impact.",
-    items: [
-      { id: 1, title: "3D Website Example 1", tags: ["Three.js", "GSAP"], image: "https://placehold.co/600x400/121218/7c5cff?text=3D+Site+1" },
-      { id: 2, title: "3D Website Example 2", tags: ["React Three Fiber"], image: "https://placehold.co/600x400/121218/22d3ee?text=3D+Site+2" },
-    ],
+    id: 1,
+    title: "Perfumes 3D Website",
+    is3D: true,
+    tags: ["Three.js", "Web"],
+    image: "https://placehold.co/600x400/121218/7c5cff?text=Perfumes+3D",
+    liveUrl: "https://amal7654433.github.io/Perfumes-3D-Website/",
   },
-  {
-    id: "websites",
-    title: "Websites",
-    description: "Landing pages and marketing sites focused on layout, animation, and responsiveness.",
-    items: [
-      { id: 1, title: "Website Example 1", tags: ["React", "Tailwind"], image: "https://placehold.co/600x400/121218/ff6b9d?text=Website+1" },
-      { id: 2, title: "Website Example 2", tags: ["HTML", "CSS", "JavaScript"], image: "https://placehold.co/600x400/121218/7c5cff?text=Website+2" },
-    ],
-  },
+  { id: 2, title: "3D Website Example", is3D: true, tags: ["React Three Fiber"], image: "https://placehold.co/600x400/121218/22d3ee?text=3D+Site" },
+  { id: 3, title: "Website Example 1", tags: ["React", "Tailwind"], image: "https://placehold.co/600x400/121218/ff6b9d?text=Website+1" },
+  { id: 4, title: "Website Example 2", tags: ["HTML", "CSS", "JavaScript"], image: "https://placehold.co/600x400/121218/7c5cff?text=Website+2" },
 ];
 
 export const experience = [

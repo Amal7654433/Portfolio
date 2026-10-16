@@ -32,7 +32,7 @@ export default function Showcase() {
               whileHover={{ y: -4 }}
               className="glass rounded-2xl overflow-hidden group"
             >
-              <div className="relative aspect-video overflow-hidden">
+              <div className="relative h-36 overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}

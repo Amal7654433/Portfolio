@@ -82,9 +82,6 @@ export const showcaseItems = [
     image: "https://placehold.co/600x400/121218/7c5cff?text=Perfumes+3D",
     liveUrl: "https://amal7654433.github.io/Perfumes-3D-Website/",
   },
-  { id: 2, title: "3D Website Example", is3D: true, tags: ["React Three Fiber"], image: "https://placehold.co/600x400/121218/22d3ee?text=3D+Site" },
-  { id: 3, title: "Website Example 1", tags: ["React", "Tailwind"], image: "https://placehold.co/600x400/121218/ff6b9d?text=Website+1" },
-  { id: 4, title: "Website Example 2", tags: ["HTML", "CSS", "JavaScript"], image: "https://placehold.co/600x400/121218/7c5cff?text=Website+2" },
 ];
 
 export const experience = [

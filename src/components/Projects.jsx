@@ -22,7 +22,7 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, i) => (
             <motion.div
               key={project.id}
@@ -33,7 +33,7 @@ export default function Projects() {
               whileHover={{ y: -6 }}
               className="glass rounded-2xl overflow-hidden group"
             >
-              <div className="aspect-video overflow-hidden">
+              <div className="h-36 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -41,12 +41,12 @@ export default function Projects() {
                   loading="lazy"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-5">
                 <span className="inline-block text-xs uppercase tracking-widest mb-2" style={{ color: "#7c5cff" }}>
                   {project.category}
                 </span>
-                <h3 className="font-display text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-white/60 text-sm mb-4">{project.description}</p>
+                <h3 className="font-display text-lg font-bold mb-2">{project.title}</h3>
+                <p className="text-white/60 text-sm mb-4 line-clamp-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-5">
                   {project.tags.map((tag) => (
                     <span

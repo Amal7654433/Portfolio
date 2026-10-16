@@ -18,13 +18,13 @@ export default function About() {
             Crafting digital experiences with code &amp; creativity
           </h2>
           <p className="text-white/60 leading-relaxed mb-4">
-            I'm a full-stack developer passionate about building performant, accessible, and
-            visually engaging web applications. I enjoy working at the intersection of design and
-            engineering — turning complex problems into simple, elegant interfaces.
+            I'm a full-stack developer working with Node.js, React, Vite, and Next.js. I build
+            complex production applications, not just static sites, including web apps, native
+            Android apps, and systems with real backend logic.
           </p>
           <p className="text-white/60 leading-relaxed">
-            When I'm not coding, you'll find me exploring new 3D web techniques, contributing to
-            open source, or sketching UI concepts.
+            Backend is where I'm strongest: APIs, real-time features with Socket.io and WebSockets,
+            payments, authentication, and cloud deployment on AWS, Firebase, and Render.
           </p>
         </motion.div>
 

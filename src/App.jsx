@@ -1,3 +1,4 @@
+import CodeRain from "./components/CodeRain";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -12,6 +13,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="relative">
+      <CodeRain />
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 pointer-events-none"
+        style={{ zIndex: -1, background: "radial-gradient(ellipse at center, transparent 50%, rgba(5, 5, 7, 0.85) 100%)" }}
+      />
       <div className="grain" />
       <Navbar />
       <main>

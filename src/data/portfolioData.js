@@ -17,10 +17,8 @@ export const profile = {
 };
 
 export const stats = [
-  { label: "Years Experience", value: "1+" },
-  { label: "Projects Shipped", value: "5+" },
-  { label: "Happy Clients", value: "2+" },
-  { label: "Cups of Coffee", value: "999+" },
+  { label: "Years Experience", value: "1.5+" },
+  { label: "Happy Clients", value: "8+" },
 ];
 
 export const skills = [

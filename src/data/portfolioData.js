@@ -6,6 +6,8 @@ export const profile = {
   location: "Based in Kerala, India",
   email: "amal790257@gmail.com",
   phone: "+91 9497515494",
+  whatsapp: "919497515494",
+  contactFormKey: "8beaf62a-74b4-4007-b36b-d9c1a6623ce1",
   resumeUrl: "#",
   socials: {
     github: "https://github.com/Amal7654433",
